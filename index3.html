@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang = "ru">
+  <head><title>Качалова Анастасия Алексеевна 25/1</title></head>
+  <body>
+    <form action="/" method="POST">
+      <label>
+        ФИО:<br>
+        <input name="field-name-1" placeholder="ФИО">
+      </label><br>
+
+      <label>
+        Email:<br>
+        <input name="field-email" type="email" placeholder="Введите вашу почту">
+      </label><br>
+
+      <label>
+        Дата рождения:<br>
+        <input name="field-date" type="date">
+      </label><br>
+
+      Пол:<br>
+      <label><input type="radio" name="radio-group-1" value="female">
+        Женский
+      </label>
+      <label><input type="radio" name="radio-group-1" value="man">
+        Мужской
+      </label><br>
+
+      Кол-во конечностей:<br>
+      <label><input type="radio" checked="checked" name="radio-group-2" value="1">
+       1
+      </label>
+      <label><input type="radio" name="radio-group-2" value="2">
+       2
+      </label>
+      <label><input type="radio" name="radio-group-2" value="3">
+        3
+      </label>
+      <label><input type="radio" name="radio-group-2" value="4">
+        4
+      </label>
+      <label><input type="radio" name="radio-group-2" value="etc">
+        Другое
+      </label><br>
+
+      <label>
+        Сверхспособности:
+        <br>
+        <select name="field-spower" multiple="multiple">
+          <option value="spower-immortality">Бессметрие</option>
+          <option value="spower-no-walls" selected="selected">Прохождение сквозь стены</option>
+          <option value="spower-levitation">Левитация</option>
+        </select>
+      </label><br>
+
+      <label>
+        Биография:<br>
+        <textarea name="field-biography" placeholder="Минимум 100 слов"></textarea>
+      </label><br>      
+
+      <label><input type="checkbox" name="contract-checked">
+        С контрактом ознакомлен (а)</label><br>
+
+      <input type="submit" value="Отправить">
+  </form>
+  <p id="about">Создание этой страницы было моим домашним заданием</p>
+ </body>
+</html>
