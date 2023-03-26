@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: #130f40;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.h1 {
+    text-transform: uppercase;
+}
+
+.form {
+    margin: 100px auto;
+    width: 450px;
+    padding: 30px;
+    background: #30336b;
+    text-align: center;
+}
+
+.form input[type="text"], input[type="email"], input[type="date"], select, textarea {
+    background: none;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.form input[type="submit"] {
+    width: 200px;
+    height: 30px;
+    background: #487eb0;
+    color: #fff;
+    border-radius: 44px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.form input[type="submit"]:hover {
+    transform: scale(0.95);
+}
