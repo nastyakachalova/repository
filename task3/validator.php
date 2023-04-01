@@ -1,7 +1,7 @@
 <?php
     try {
-        $user='u52864';
-        $password='3567354';
+        $user='u52849
+        $password='2277004
         $db=new PDO('mysql:host=localhost;dbname=u52864', $user, $password, 
         [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
