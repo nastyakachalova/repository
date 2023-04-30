@@ -1,0 +1,146 @@
+body {
+    background: #535570;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 100px auto;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    color: black;
+    background: #4b4499;
+}
+
+.form-item {
+    margin-bottom: 20px;
+}
+
+.form-head {
+    margin-bottom: 40px;
+}
+
+.line {
+  width: 95%;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 15px;
+  padding: 5px;
+  display: block;
+}
+
+.line:focus {
+  outline: none;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.name, .email {
+    margin-bottom: 0px;
+}
+
+.date {
+    display: flex;
+    font-size: 20px;
+}
+
+.date span {
+    margin-right: 25px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+label {
+    cursor: pointer;
+    color: rgb(158, 150, 150);
+}
+
+span {
+    color: white;
+}
+
+.big-text {
+    margin-bottom: 15px;
+}
+
+textarea {
+    box-sizing: border-box;
+    resize: none;
+    outline: none;
+    width: 95%;
+    padding: 5px 5px 0px 5px;
+    border-radius: 15px;
+    line-height: 1.5;
+}
+
+.contract {
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 95%;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+select {
+    color: black;
+    background: white;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 16px;
+}
+
+.center {
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+#messages {
+    text-align: center;
+    border: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: red;
+}
+
+.msg {
+    color: red;
+}
+
+.good {
+    background-color: rgb(180, 248, 200);
+    padding: 10px;
+    color: black;
+}
